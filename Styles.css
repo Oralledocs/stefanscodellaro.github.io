@@ -1,0 +1,165 @@
+#IndexB{
+background: url("IndexBackground.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q1{
+background: url("1.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q2{
+background: url("2.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q3{
+background: url("3.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q4{
+background: url("4.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q5{
+background: url("5.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q6{
+background: url("6.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q7{
+background: url("7.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q8{
+background: url("8.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q9{
+background: url("9.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q10{
+background: url("10.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q11{
+background: url("11.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q12{
+background: url("12.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q13{
+background: url("13.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q14{
+background: url("14.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+#q15{
+background: url("15.jpg"); 
+  background-repeat:no-repeat;
+  background-size:100% 100vh;
+  background-attachment: fixed;
+}
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+div {
+    border: 1px solid black;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: #ffffff;
+ padding: 25px;
+}
+#div7 {
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-bottom: 4%;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: #ffffff;
+ padding: 25px;
+}
+#button {
+    background-color: #808080;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+h1 {
+   font-family:Arial;
+}
+p{
+   font-family:Arial;
+}
+ol{
+ font-family:Arial;
+font-size:20px;
+}
+#sad{
+max-width: 100%;
+    height: auto;
+}
+#happy{
+max-width: 100%;
+    height: auto;
+}
+}

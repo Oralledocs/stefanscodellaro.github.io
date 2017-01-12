@@ -1,0 +1,216 @@
+ <!DOCTYPE HTML>
+<html>
+<head>
+<title>Space Triva Quiz</title>
+<style type="text/css">
+	body{
+	background-image:url("space.gif");
+	background-repeat : no-repeat;
+	background-position: right top;
+   	 background-attachment: fixed;
+	background-size:100% 100vh;
+	           
+	position:absolute; 
+	margin-left: 33%;
+	margin-top: 23%;
+	color:white;
+	font-size: 16px;
+	font-family: Arial;
+	}
+textarea{ 
+font-family:Arial;
+background-color:white;
+color: blue;
+}
+#qnum{
+background-color:white;
+color: blue;
+}
+#button{color: blue;}
+</style>
+<script>
+
+
+
+
+i = 1 // counter variable
+var score = 0
+
+
+
+
+function main(){  // main part of program
+
+ if (i==1){ 
+	 document.view.qnum.value=i + " out of 10";  // puts score in text box	
+	correct="b"  // assigns the correct answer
+
+	ans=prompt(i+'.) Which star is at the center of our Solar System?\na) Moon\nb) Sun\nc) Sol\nd) Star\n\nEnter Answer >>   a,   b,   c,   d')  // gives user a chance to see and  answer the question
+
+}// end of question 1
+else if (i==2){ 
+
+	 document.view.qnum.value=i + " out of 10";  // puts score in text box
+	correct="c"  // assigns the correct answer
+
+	ans=prompt(i+'.) How long does it take for sun rays to reach Earth?\na) Instantly\nb) 8 seconds\nc) 8 minutes\nd) 8 hours\n\nEnter Answer >>   a,   b,   c,   d')  //  gives user a chance to see and  answer the question
+ 
+
+	
+	
+		
+
+}// end of question 2
+
+else if (i==3){ 
+
+	 document.view.qnum.value=i + " out of 10";  // puts score in text box
+	correct="a"  // assigns the correct answer
+
+	ans=prompt(i+'.) Which Is the Hottest Planet in the solar system?\na) Venus\nb) Sun\n	c) Jupiter\nd) Mercury\n\n Enter Answer >>   a,   b,   c,   d')  //  gives user a chance to see and  answer the question
+ 
+
+
+}// end of question 3
+
+
+else if (i==4){ 
+
+	 document.view.qnum.value=i + " out of 10";  // puts score in text box	
+	correct="b"  // assigns the correct answer
+
+	ans=prompt(i+'.) What is the closest star system to our Solar System?\na) Beta Centauri\nb) Alpha Centauri\nc) Andromeda\nd) Sirius\n\n  Enter Answer >>   a,   b,   c,   d')  //  gives user a chance to see and  answer the question
+
+
+}// end of question 4
+
+else if (i==5){ 
+
+	 document.view.qnum.value=i + " out of 10";  // puts score in text box	
+	correct="a"  // assigns the correct answer
+
+	ans=prompt(i+'.) The term big bang refers to what?\na) The origin of the universe\nb) The ultimate fate of the universe\nc) A supernova explosion\nd) The formation of a quasar\n\n  Enter Answer >>   a,   b,   c,   d')  //  gives user a chance to see and  answer the question
+ 
+
+}// end of question 5
+
+else if (i==6){ 
+
+	 document.view.qnum.value=i + " out of 10";  // puts score in text box	
+	correct="d"  // assigns the correct answer
+
+	ans=prompt(i+'.) What is a supernova? \na) A small galaxy\nb) An exploded planet\nc) A large star\nd) An exploded star\n\nEnter Answer >>   a,   b,   c,   d')  //  gives user a chance to see and  answer the question
+
+}// end of question 6
+
+else if (i==7){ 
+
+	 document.view.qnum.value=i +  " out of 10";  // puts score in text box
+	correct="b"  // assigns the correct answer
+
+	ans=prompt(i+'.) Something in orbit around a planet is called a:\na) Comet\nb) Satellite\nc) Black hole\nd) Red Dwarf\n\nEnter Answer >>   a,   b,   c,   d')  //  gives user a chance to see and  answer the question
+ 
+
+
+}// end of question 7
+
+else if (i==8){ 
+
+	 document.view.qnum.value=i + " out of 10";  // puts score in text box	
+	correct="b"  // assigns the correct answer
+
+	ans=prompt(i+'.) The four gas giants in our solar system are: Mercury, Venus, Earth, and Mars.\na) True\nb) False\n\n  Enter Answer >>   a,   b')  //  gives user a chance to see and  answer the question
+ 
+
+
+}// end of question 8
+
+else if (i==9){ 
+
+	 document.view.qnum.value=i + " out of 10";  // puts score in text box
+	correct="a"  // assigns the correct answer
+
+	ans=prompt(i+'.) Is the moon a satellite?\na) True\nb) False\n\nEnter Answer >>   a,   b')  //  gives user a chance to see and  answer the question
+
+
+}// end of question 9
+
+else if (i==10){ 
+
+	 document.view.qnum.value=i + " out of 10";  // puts score in text box	
+	correct="c"  // assigns the correct answer
+
+	ans=prompt(i+'.) Who was the first man in space?\na) Neil Armstrong\nb) Alan Shepard\nc) Yuri Gagarin\nd) Buzz Aldrin\n\n Enter Answer >>   a,   b,   c,   d')  //  gives user a chance to see and  answer the question
+
+
+}// end of question 10
+else if (i==11){ 
+isuready = prompt("Would You Like to View your Results?").toLowerCase() //asks if user would like to see their results along with various outputs
+	switch(isuready){
+	    case "no":
+alert("Thank you for playing.")
+      	  break;
+ 	   case "yes":
+if(score>=8){
+alert("CONGRATULATIONS. You have completed the Space Trivia Quiz with " + score + " out of the 10 questions correct. That is " + (score/10)*100 + "%. Thank you for playing and I hope you enjoyed."); // puts comment in textarea;
+var audio3 = new Audio('victory.mp3');  //buffers audio
+	audio3.play(); //plays audio
+document.view.question.value =" "
+}
+else{
+alert("OH NO!. You have completed the Space Trivia Quiz with " + score + " out of the 10 questions correct. That is " + (score/10)*100 + "%. If you would like to try again, click the f5 button on your keybord. Thank you for playing and I hope you enjoyed.");  // puts comment in textarea
+var audio4 = new Audio('fail.mp3');  //buffers audio
+	audio4.play(); //plays audio
+document.view.question.value =" "
+}
+       	 break;
+    case "steven":
+document.view.question.value = "steven";
+alert("Oh I see how this is. You know what you did! I will be nice and show your score anyways. -9999999.56 out of 10. You and your kind can leave now.")
+       	 break;
+	 default:
+alert("Sorry I did not get that. Please try that again.");
+	break;
+}
+i--; //keeps counter on 11
+score--; //keeps score from increasing
+document.view.question.value =" "
+}
+
+document.view.go.focus();  // puts the focus on the "Next Question -->" button so the enter key will activate it
+
+	if (correct==ans){  // compares the real answer to the users answer
+
+		document.view.question.value ="You are right! Yaaaaay :)" // puts comment in textarea;
+		score++;
+	var audio1 = new Audio('correct.mp3');  //buffers audio
+	audio1.play(); //plays audio
+	}
+	else if (correct !=ans && i<10){
+		document.view.question.value =" You are wrong. :("  // puts comment in textarea
+		var audio2 = new Audio('incorrect.mp3'); //buffers audio
+	audio2.play(); //plays audio
+		
+	}
+else{
+document.view.question.value =" You are wrong. :("  // puts comment in textarea
+}
+
+	i++; // keeps track of number of questions asked
+	
+} //end of main function
+
+
+
+</script>
+</head>
+<body LINK="F7DD5E" VLINK="F7DD5E" ALINK="F7DD5E" onLoad="main()">
+
+<FORM name="view">  
+	Completed Questions: &nbsp;<input type="text" name="qnum" id="qnum" size="6">&nbsp;&nbsp;<input type="button" name="go" id="button" value="Next Question -->" onClick=main()>
+	<br><br>
+	<TEXTAREA COLS=55 ROWS=9 name="question" wrap=virtual"></TEXTAREA> 
+</FORM> 
+
+</body>
+</html>
