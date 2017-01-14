@@ -16,7 +16,7 @@
   	background-size: cover;
 	position:absolute; 
 	margin-left: 15%;
-	margin-top: 10%;
+	margin-top: 25%;
 	color:white;
 	font-size: 16px;
 	font-family: Arial;
@@ -32,10 +32,9 @@ color: blue;
 }
 #button{color: blue;}
 
-
-
-
-
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	background: url(space.gif) no-repeat center center fixed;
+}
 </style>
 <script>
 
@@ -76,7 +75,7 @@ else if (i==3){
 	 document.view.qnum.value=i + " out of 10";  // puts score in text box
 	correct="a"  // assigns the correct answer
 
-	ans=prompt(i+'.) Which Is the Hottest Planet in the solar system?\na) Venus\nb) Sun\n	c) Jupiter\nd) Mercury\n\n Enter Answer >>   a,   b,   c,   d')  //  gives user a chance to see and  answer the question
+	ans=prompt(i+'.) Which Is the Hottest Planet in the solar system?\na) Venus\nb) Sun\nc) Jupiter\nd) Mercury\n\n Enter Answer >>   a,   b,   c,   d')  //  gives user a chance to see and  answer the question
  
 
 
