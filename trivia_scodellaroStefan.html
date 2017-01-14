@@ -4,7 +4,12 @@
 <title>Space Triva Quiz</title>
 <style type="text/css">
 	body{
-	background:url("space.gif") no-repeat center center fixed; 
+	background:url("space.gif") no-repeat center center fixed;
+	-webkit-background-size: 100%; 
+    	-moz-background-size: 100%; 
+   	 -o-background-size: 100%; 
+  	  background-size: 100%;
+	background-attachment: fixed;
   	-webkit-background-size: cover;
  	 -moz-background-size: cover;
  	 -o-background-size: cover;
@@ -13,7 +18,7 @@
 	margin-left: 15%;
 	margin-top: 10%;
 	color:white;
-	ont-size: 2vmin;
+	font-size: 16px;
 	font-family: Arial;
 	}
 textarea{ 
@@ -213,7 +218,7 @@ document.view.question.value =" You are wrong. :("  // puts comment in textarea
 <FORM name="view">  
 	Completed Questions: &nbsp;<input type="text" name="qnum" id="qnum" size="6">&nbsp;&nbsp;<input type="button" name="go" id="button" value="Next Question -->" onClick=main()>
 	<br><br>
-	<TEXTAREA COLS=20 ROWS=9 name="question" wrap=virtual"></TEXTAREA> 
+	<TEXTAREA COLS=20 ROWS=3 name="question" wrap=virtual"></TEXTAREA> 
 </FORM> 
 
 </body>
