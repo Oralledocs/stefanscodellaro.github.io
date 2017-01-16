@@ -95,13 +95,13 @@ background: url("15.jpg");
   background-attachment: fixed;
 }
 a:link {
-    color: blue;
+    color: white;
     background-color: transparent;
     text-decoration: none;
 	font-size: 16px;
 }
 a:visited {
-    color: blue;
+    color: white;
     background-color: transparent;
 font-size: 16px;
     text-decoration: none;
@@ -113,21 +113,49 @@ font-size: 16px;
     text-decoration: underline;
 }
 a:active {
-    color: yellow;
+    color: black;
     background-color: transparent;
 font-size: 16px;
     text-decoration: underline;
 }
-.button{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 5px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin: 4px 2px;
-    cursor: pointer;
+.btn {
+ 
+ background: #2f17e6;
+  
+background-image: -webkit-linear-gradient(top, #2f17e6, #041f4d);
+  background-image: -moz-linear-gradient(top, #2f17e6, #041f4d);
+  
+background-image: -ms-linear-gradient(top, #2f17e6, #041f4d);
+  
+background-image: -o-linear-gradient(top, #2f17e6, #041f4d);
+  background-image: linear-gradient(to bottom, #2f17e6, #041f4d);
+  
+-webkit-border-radius: 60;
+ 
+ -moz-border-radius: 60;
+ 
+ border-radius: 60px;
+  
+text-shadow: 3px 5px 9px #030003;
+  
+font-family: Arial;
+  
+color: #ffffff;
+ 
+ font-size: 20px;
+  
+padding: 10px 20px 10px 20px;
+ 
+ text-decoration: none;
+
+}
+
+
+.btn:hover {
+  background: #f6fc3c;
+ 
+ text-decoration: none;
+
 }
 div {
     border: 1px solid black;

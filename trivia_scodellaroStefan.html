@@ -166,7 +166,7 @@ var audio3 = new Audio('victory.mp3');  //buffers audio
 document.view.question.value =" "
 }
 else{
-alert("OH NO!. You have completed the Space Trivia Quiz with " + score + " out of the 10 questions correct. That is " + (score/10)*100 + "%. If you would like to try again, click the f5 button on your keybord. Thank you for playing and I hope you enjoyed.");  // puts comment in textarea
+alert("OH NO!. You have completed the Space Trivia Quiz with " + score + " out of the 10 questions correct. That is " + (score/10)*100 + "%. If you would like to try again, edit the current question box to reset the page. Thank you for playing and I hope you enjoyed.");  // puts comment in textarea
 var audio4 = new Audio('fail.mp3');  //buffers audio
 	audio4.play(); //plays audio
 document.view.question.value =" "
@@ -181,7 +181,7 @@ alert("Sorry I did not get that. Please try that again.");
 	break;
 }
 i--; //keeps counter on 11
-score--; //keeps score from increasing
+correct="cargfacscaxaasd"  // assigns an impossible answer to keep the score from increasing or decreasing 
 document.view.question.value =" "
 }
 
