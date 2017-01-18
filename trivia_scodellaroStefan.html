@@ -44,8 +44,8 @@ color: blue;
 i = 1 // counter variable
 var score = 0
 
-
-
+var audio3 = new Audio('victory.mp3');  //buffers audio
+var audio4 = new Audio('fail.mp3');  //buffers audio
 
 function main(){  // main part of program
 
@@ -153,6 +153,7 @@ else if (i==10){
 
 }// end of question 10
 else if (i==11){ 
+
 isuready = prompt("Would You Like to View your Results?").toLowerCase() //asks if user would like to see their results along with various outputs
 	switch(isuready){
 	    case "no":
@@ -161,13 +162,11 @@ alert("Thank you for playing.")
  	   case "yes":
 if(score>=8){
 alert("CONGRATULATIONS. You have completed the Space Trivia Quiz with " + score + " out of the 10 questions correct. That is " + (score/10)*100 + "%. Thank you for playing and I hope you enjoyed."); // puts comment in textarea;
-var audio3 = new Audio('victory.mp3');  //buffers audio
 	audio3.play(); //plays audio
 document.view.question.value =" "
 }
 else{
 alert("OH NO!. You have completed the Space Trivia Quiz with " + score + " out of the 10 questions correct. That is " + (score/10)*100 + "%. If you would like to try again, edit the current question box to reset the page. Thank you for playing and I hope you enjoyed.");  // puts comment in textarea
-var audio4 = new Audio('fail.mp3');  //buffers audio
 	audio4.play(); //plays audio
 document.view.question.value =" "
 }

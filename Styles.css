@@ -134,7 +134,7 @@ background-image: -o-linear-gradient(top, #2f17e6, #041f4d);
  
  -moz-border-radius: 60;
  
- border-radius: 60px;
+ border-radius: 20px;
   
 text-shadow: 3px 5px 9px #030003;
   
@@ -144,7 +144,7 @@ color: #ffffff;
  
  font-size: 20px;
   
-padding: 10px 20px 10px 20px;
+padding: 5px 10px 5px 10px;
  
  text-decoration: none;
 
