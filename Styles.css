@@ -98,64 +98,47 @@ a:link {
     color: white;
     background-color: transparent;
     text-decoration: none;
-	font-size: 16px;
+	font-size: 10px;
 }
 a:visited {
     color: white;
     background-color: transparent;
-font-size: 16px;
+font-size: 10px;
     text-decoration: none;
 }
 a:hover {
     color: red;
     background-color: transparent;
-font-size: 16px;
+font-size: 10px;
     text-decoration: underline;
 }
 a:active {
     color: black;
     background-color: transparent;
-font-size: 16px;
+font-size: 10px;
     text-decoration: underline;
 }
 .btn {
- 
- background: #2f17e6;
-  
-background-image: -webkit-linear-gradient(top, #2f17e6, #041f4d);
-  background-image: -moz-linear-gradient(top, #2f17e6, #041f4d);
-  
-background-image: -ms-linear-gradient(top, #2f17e6, #041f4d);
-  
-background-image: -o-linear-gradient(top, #2f17e6, #041f4d);
-  background-image: linear-gradient(to bottom, #2f17e6, #041f4d);
-  
--webkit-border-radius: 20;
- 
- -moz-border-radius: 20;
- 
- border-radius: 20px;
-  
-text-shadow: 3px 5px 9px #030003;
-  
-font-family: Arial;
-  
-color: #ffffff;
- 
- font-size: 14px;
-  
-padding: 5px 5px 5px 5px;
- 
- text-decoration: none;
+  background: #000cf0;
+  background-image: -webkit-linear-gradient(top, #000cf0, #000000);
+  background-image: -moz-linear-gradient(top, #000cf0, #000000);
+  background-image: -ms-linear-gradient(top, #000cf0, #000000);
+  background-image: -o-linear-gradient(top, #000cf0, #000000);
+  background-image: linear-gradient(to bottom, #000cf0, #000000);
+  -webkit-border-radius: 38;
+  -moz-border-radius: 38;
+  border-radius: 38px;
+  text-shadow: 3px 3px 3px #000000;
+  font-family: Arial;
+  color: #ffffff;
 
+  padding: 2px 8px 2px 8px;
+  text-decoration: none;
 }
 
-
 .btn:hover {
-  background: #f6fc3c;
- 
- text-decoration: none;
-
+  background: #fce23c;
+  text-decoration: none;
 }
 div {
     border: 1px solid black;
